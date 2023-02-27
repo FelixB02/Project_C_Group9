@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IPics, portpics } from './portpic';
 
 @Component({
   selector: 'app-portfolio',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
+  portpics: Array<IPics> = portpics;
 
 }
