@@ -6,10 +6,15 @@ h4
   transform: translate(-50%, -50%);
   font-family: serif;
   font-size: x-large;
-  color:goldenrod
+  color: maroon ;
 }
 img{
   height: 100% !important;
   object-fit: cover !important;
   object-position: center !important;
+}
+
+.btnDes{
+  position: absolute;
+  bottom: 0;
 }
