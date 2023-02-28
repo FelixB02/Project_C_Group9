@@ -13,7 +13,7 @@
 div.container {
     position: relative;
     width: 80%;
-    height: 65vh;
+    height: auto;
     margin: auto;
     margin-top: 60px;
     border-radius: 10px;
@@ -79,4 +79,11 @@ input[ type=submit]:hover {
 #div1 {
     width: 50%;
     border-right: 1px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.google {
+    width: 100%;
+    height: auto;
 }
