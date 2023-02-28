@@ -11,7 +11,7 @@ export const portpics=[{
   description:"Hold on to your inner child as you grow older."
 },
 {
-  image:"https://cdn.pixabay.com/photo/2021/09/28/05/52/woman-6663372__340.jpg",
+  image:"https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg",
   name: "Fashion Photoshoot",
   price:349.99,
   description:"Fashion is about who you want to be, not who you are, it's therefore artificial… it's funny and it's sad and it's a little crazy."
