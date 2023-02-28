@@ -28,3 +28,63 @@ button:hover {
     color: #c94b4b;
     transition: 1.5s;
 }
+
+@media screen and (max-width: 768px) {
+    #textcont h1 {
+        font-size: 20px;
+    }
+    #textcont h3 {
+        font-size: 18px;
+    }
+    #textcont {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+    .button {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #textcont h1 {
+        font-size: 15px;
+    }
+    #textcont h3 {
+        font-size: 12px;
+    }
+    #textcont {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+    .button {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #textcont h1 {
+        font-size: 12px;
+    }
+    #textcont h3 {
+        font-size: 10px;
+    }
+    #textcont {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+    .button {
+        font-size: 8px;
+    }
+}
