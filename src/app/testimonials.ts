@@ -6,7 +6,7 @@ export let testimonials=[
         fname:"John",
         lname:"Wagner",
         date:"1.01.2020",
-        company:"HR Professional,Actelion Pharmaceuticals",
+        company:"HR Professional, Actelion Pharmaceuticals",
         comment:"Vicker took some great photos at our recent conference in September. He was very patient and adaptable and mixed in well with all of us. The photos included work and social activities and captured the spirit perfectly.",
         rating:"&#9734;&#9734;&#9734;&#9734;&#9734;"
     },{
@@ -14,7 +14,7 @@ export let testimonials=[
         fname:"Anna",
         lname:"Colley",
         date:"13.02.2021",
-        company:"Director,Ayre Media",
+        company:"Director, Ayre Media",
         comment:" I can highly recommend Vicker for all your company's need in photography, we hired him for 3 events and his photos are outstanding, very personal and eye fetching. We surly will contract him again!",
         rating:"&#9734;&#9734;&#9734;&#9734;&#9734;"
     },{

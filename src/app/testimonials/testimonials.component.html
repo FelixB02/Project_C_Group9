@@ -1,33 +1,52 @@
-
-
 <div class="container cont1">
-  <div id="headcont">
-    <h1 id="heading">Our Customers Experiences</h1>
+    <div id="headcont">
+        <h1 id="heading">Our Customers Experiences</h1>
     </div>
 
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="cont">
-        <div class="carousel-item" *ngFor="let val of testimonials; first as isFirst" [class.active]="isFirst">
-          <img class="image1" src="{{val.image}}" alt="">
-          <h6>{{val.fname}} {{val.lname}}</h6>
-          <h6>{{val.company}} </h6>
-          <p>{{val.date}}</p>
-          <p id="comment">{{val.comment}} </p>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="cont">
+                <div class="carousel-item" *ngFor="let val of testimonials; first as isFirst" [class.active]="isFirst">
+                    <!-- <div class="row text-center"> -->
+                    <div>
+                        <div class="d-flex justify-content-center mb-4">
+                            <img src="{{val.image}}" class="rounded-circle shadow-1-strong" width="250" height="250" />
+                        </div>
+                        <h5 class="mb-3">{{val.fname}} {{val.lname}}</h5>
+                        <h6 class="mb-3"> Date of birth: {{val.date}} </h6>
+                        <h6 class="text-primary mb-3">{{val.company}}</h6>
+                        <p class="px-xl-3 comment">
+                            {{val.comment}}
+                        </p>
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                                <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+    </div>
 </div>
-
-
-
