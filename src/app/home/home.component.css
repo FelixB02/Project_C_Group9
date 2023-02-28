@@ -71,10 +71,10 @@ button:hover {
 
 @media screen and (max-width: 400px) {
     #textcont h1 {
-        font-size: 10px;
+        font-size: 12px;
     }
     #textcont h3 {
-        font-size: 8px;
+        font-size: 10px;
     }
     #textcont {
         top: 25%;
