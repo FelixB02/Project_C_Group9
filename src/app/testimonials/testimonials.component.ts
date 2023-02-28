@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { testimonials,Itestimonials } from '../testimonials';
 
 @Component({
   selector: 'app-testimonials',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./testimonials.component.css']
 })
 export class TestimonialsComponent {
-
+  testimonials:Array<Itestimonials> = testimonials;
 }
