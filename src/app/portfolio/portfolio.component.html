@@ -3,7 +3,7 @@
         <div *ngFor="let val of portpics, index as i" class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-xs-12 piccont">
             <img src="{{val.image}}" alt="" class="image">
             <div class="middle">
-                <div class="text btn"> {{val.name}}</div>
+                <div [swal]="['Oops!', 'This is not implemented yet :/', 'warning']" class="text btn"> {{val.name}}</div>
             </div>
         </div>
     </div>

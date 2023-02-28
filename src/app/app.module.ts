@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DetailsComponent } from './details/details.component';
 import { CustomerComponent } from './customer/customer.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
