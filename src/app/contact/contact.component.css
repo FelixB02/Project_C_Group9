@@ -12,7 +12,8 @@
 
 div.container {
     position: relative;
-    width: 50%;
+    width: 80%;
+    height: 65vh;
     margin: auto;
     margin-top: 60px;
     border-radius: 10px;
@@ -66,4 +67,16 @@ input[ type=submit]:hover {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+#div2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#div1 {
+    width: 50%;
+    border-right: 1px solid grey;
 }
