@@ -87,3 +87,5 @@ input[ type=submit]:hover {
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width:567px) {}
