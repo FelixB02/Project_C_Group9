@@ -32,7 +32,7 @@ export const portpics=[{
     image:"https://media.istockphoto.com/id/1153273714/photo/climber-climbing-in-todra-gorges-in-morocco.jpg?s=612x612&w=0&k=20&c=8AIIXxJUV9VtsFCfpf5md4aLqdsOf1B-ml3lOLySLd0=",
     name: "Sports Photoshoot",
     price:499.99,
-    description:"he most important thing you learn as a sports photographer is anticipation - not where the action is taking place, but where it's going to take place."
+    description:"The most important thing you learn as a sports photographer is anticipation - not where the action is taking place, but where it's going to take place."
   },
 {
   image:"https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907__340.jpg",
@@ -44,7 +44,7 @@ export const portpics=[{
   image:"https://cdn.pixabay.com/photo/2012/11/28/09/50/tigers-67577__340.jpg",
   name: "Wildlife Photoshoot",
   price:479.99,
-  description:"There's no Wi-Fi in the forest, but I promise you'll find a better connection."
+  description:"There's no Wi-Fi in the forest, but we promise you'll find a better connection."
 },
 {
   image:"https://cdn.pixabay.com/photo/2020/10/14/19/49/santorini-5655299_960_720.jpg",
