@@ -9,7 +9,7 @@
 }
 
 #comment {
-  padding: 0 30vh;
+  padding: 0 45vh;
 }
 
 .carousel-control-prev-icon{
@@ -57,5 +57,19 @@ padding: 3vh;
   min-height: 50vh;
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #comment {
+    padding: 0 30vh;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  #comment {
+    padding: 0 15vh;
+  }
 }
 
