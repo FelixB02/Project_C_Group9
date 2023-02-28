@@ -23,3 +23,8 @@ img {
     background: radial-gradient(circle, #c94b4b 0%, #4b134f 100%);
     mix-blend-mode: screen;
 }
+
+button:hover {
+    color: #c94b4b;
+    transition: 1.5s;
+}
