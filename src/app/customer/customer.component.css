@@ -1,0 +1,16 @@
+#text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.griditem {
+    display: flex;
+    justify-content: center;
+}
+
+.itemcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
