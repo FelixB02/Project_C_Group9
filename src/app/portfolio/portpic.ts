@@ -1,6 +1,6 @@
 export const portpics=[{
   image:"https://cdn.pixabay.com/photo/2017/11/17/16/05/duck-2957809__340.jpg",
-  name: "Still LIfe Photoshoot",
+  name: "Still Life Photoshoot",
   price:149.99,
   description:"In photography there is a reality so subtle that it becomes more real than reality,"
 },
