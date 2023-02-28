@@ -29,7 +29,7 @@ button:hover {
     transition: 1.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
     #textcont h1 {
         font-size: 20px;
     }
