@@ -2,15 +2,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.griditem {
-    display: flex;
-    justify-content: center;
+    background :radial-gradient(circle, #c94b4b 0%, #4b134f 100%);
+    padding-left: 2vh;
+    color: white;
 }
 
-.itemcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.picture1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #text1 {
+        width: 97%;
+        margin: 1vh auto;
+    }
 }
