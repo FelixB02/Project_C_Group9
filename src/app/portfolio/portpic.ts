@@ -8,25 +8,25 @@ export const portpics=[{
   image:"https://cdn.pixabay.com/photo/2014/12/30/00/05/festival-583442_1280.jpg",
   name: "Birthday Photoshoot",
   price:249.99,
-  description:"Hold on to your inner child as you grow older."
+  description:"From the messy cake smash to the cute little outfit, we're documenting this special milestone that will bring joy to your family for years to come."
 },
 {
   image:"https://cdn.pixabay.com/photo/2017/05/13/12/40/fashion-2309519_1280.jpg",
   name: "Fashion Photoshoot",
   price:349.99,
-  description:"Fashion is about who you want to be, not who you are, it's therefore artificial… it's funny and it's sad and it's a little crazy."
+  description:"Each shot is a masterpiece, showcasing the latest trends in fashion and beauty."
 },
 {
   image:"https://cdn.pixabay.com/photo/2017/07/04/12/14/bride-2470860_1280.jpg",
   name: "Wedding Photoshoot",
   price:1099.99,
-  description:"Briefly stated information, usually occupying no more than four short lines, which accompanies a photograph, adds to our understanding of the image, and often influences what we think of it. A caption is dynamic; it develops title information into why and how along a line of action."
+  description:"A day filled with love and laughter, captured in every frame. From the first look to the last dance, we document the moments that will last a lifetime."
 },
 {
   image:"https://cdn.pixabay.com/photo/2016/01/20/11/11/baby-1151351_1280.jpg",
   name: "Baby Photoshoot",
   price:699.99,
-  description:"A new baby is like the beginning of all things-wonder, hope, a dream of possibilities"
+  description:"Pure innocence captured: A precious bundle of joy in front of the lens, showcasing their charming smile and curious eyes. Every shot is a moment frozen in time, reminding us of the beauty and wonder of new life"
 },
 {
     image:"https://cdn.pixabay.com/photo/2013/03/19/18/23/mountain-biking-95032_1280.jpg",
