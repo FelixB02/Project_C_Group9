@@ -4,17 +4,25 @@
     color: white;
 }
 
-.nav-item::after {
-    content: '';
-    display: block;
-    width: 0px;
-    height: 2px;
-    background: #c94b4b;
-    transition: 0.4s
+.nav-link {
+    position: relative;
 }
 
-.nav-item:hover::after {
-    width: 100%
+.nav-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    outline: 0px solid #c94b4b;
+    transition: all 0.4s
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    outline: 1px solid #c94b4b;
 }
 
 .navbar-dark .navbar-nav #nav-link1:hover {
