@@ -1,30 +1,20 @@
-<nav class="navbar navbar-expand-lg pb-3" id="navbar">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="navbar">
     <div class="container-fluid">
         <a class=" navbar-brand " routerLink="/"><i class="fas fa-camera fa-1xl" id="cameraicon"></i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i style="color: white; "class="fa fa-bars" aria-hidden="true"></i>
-      </button>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/customer">Customers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-light link1" aria-current="page" routerLink="/testimonials">Testimonials</a>
-                </li>
-            </ul>
+            <div id="linkcont">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"> <a routerLink="/" class="nav-link" id="nav-link1"> Home </a> </li>
+                    <li class="nav-item active"> <a routerLink="/about" class="nav-link" id="nav-link2"> About </a> </li>
+                    <li class="nav-item active"> <a routerLink="/portfolio" class="nav-link" id="nav-link3"> Portfolio </a> </li>
+                    <li class="nav-item active"> <a routerLink="/customer" class="nav-link" id="nav-link4"> Customer </a> </li>
+                    <li class="nav-item active"> <a routerLink="/testimonials" class="nav-link" id="nav-link5"> Testimonials </a> </li>
+                    <li class="nav-item active"> <a routerLink="/contact" class="nav-link" id="nav-link6"> Contact </a> </li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
