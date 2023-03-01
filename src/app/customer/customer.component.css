@@ -28,19 +28,42 @@ h1 {
         margin: 1vh auto;
     }
 }
+
+h1 {
+animation-duration: 1.7s;
+animation-name: animate-fade;
+animation-delay: 0.5s;
+animation-fill-mode: backwards;
+}
 h3 {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: inherit;
-    animation-direction: alternate;
-  }
-  h1 {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: inherit;
-    animation-direction: alternate;
-  }
-    
+    animation-duration: 3.7s;
+    animation-name: animate-fade;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+    }
+  
+@keyframes animate-fade {
+  0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+.animate.pop {
+animation-name: animate-pop;
+animation-timing-function: cubic-bezier(.26,.53,.74,5.48);
+}
+
+@keyframes animate-pop {
+0% {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+      
+100% {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+}
 @keyframes slidein {
     from {
       margin-left: 100%;
@@ -52,4 +75,3 @@ h3 {
       width: 100%;
     }
   }
-  
