@@ -11,21 +11,50 @@ img {
     text-align: center;
     color: white;
      
-        animation-duration: 0.5s;
+        animation-duration: 1.7s;
         animation-name: animate-fade;
         animation-delay: 0.5s;
         animation-fill-mode: backwards;
       }
-      
+          
       @keyframes animate-fade {
+          0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      
+      .animate.pop {
+        animation-name: animate-pop;
+        animation-timing-function: cubic-bezier(.26,.53,.74,5.48);
+      }
+      
+      @keyframes animate-pop {
         0% {
           opacity: 0;
+          transform: scale(0.5, 0.5);
         }
+              
         100% {
           opacity: 1;
+          transform: scale(1, 1);
         }
-}
-
+      }
+      
+      
+      .animate.pop.delay-1 {
+        animation-delay: 3.6s;
+      }
+          
+      .animate.pop.delay-2 {
+        animation-delay: 6.2s;
+      }
+          
+      .animate.pop.delay-3 {
+        animation-delay: 8.5s;
+      }
+      
+      
+    
 
 .total {
     position: relative;
