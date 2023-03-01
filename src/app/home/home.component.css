@@ -12,6 +12,11 @@ img {
     color: white;
 }
 
+.total {
+    display: inline-block;
+    position: relative;
+}
+
 #textcont h1 {
     font-size: 5.5vh;
     font-family: 'Lobster', cursive;
