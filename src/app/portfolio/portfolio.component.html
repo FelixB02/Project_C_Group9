@@ -5,7 +5,7 @@
             <img [swal]="showdetails" src="{{val.image}}" alt="" class="image btn">
             <div class="middle">
                 <div [swal]="showdetails" class="text btn"> {{val.name}}</div>
-                <swal #showdetails width="70%" title="{{ val.name }}?" confirmButtonText="Buy" imageUrl="{{val.image}}" imageWidth="80vh" html="<b>Price: {{val.price | currency:'€'}} </b><br> {{val.description}}"></swal>
+                <swal #showdetails width="70%" title="{{ val.name }}?" confirmButtonText="Ok" imageUrl="{{val.image}}" imageWidth="80vh" html="<b>Price: {{val.price | currency:'€'}} </b><br> {{val.description}}"></swal>
             </div>
         </div>
     </div>
